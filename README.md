@@ -1,4 +1,7 @@
 Project: SimpleStorage Smart Contract
+
+
+
 Description:
 This project contains a simple Solidity smart contract that allows users to store and retrieve a favorite number. The contract was created as part of the Hackerboost Web3 course (MC Week 1).
 
