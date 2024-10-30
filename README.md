@@ -27,3 +27,6 @@ addPerson: Add a person’s name and favorite number.
 activateContract / deactivateContract: Set the contract to active or inactive.
 
 isActive: Check if the contract is currently active.
+
+Ive really improved on this weeks assignment since i pushed the code to github stress free unlike the previous week. 
+
