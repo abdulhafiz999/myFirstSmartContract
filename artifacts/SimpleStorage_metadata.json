@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newNumber",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "updatedBy",
+						"type": "address"
+					}
+				],
+				"name": "NumberUpdated",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "activateContract",
 				"outputs": [],
@@ -57,6 +76,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_inputString",
+						"type": "string"
+					}
+				],
+				"name": "concatenateString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "deactivateContract",
 				"outputs": [],
@@ -74,6 +112,19 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -143,6 +194,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -198,6 +268,19 @@
 						"type": "uint256"
 					}
 				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
 				"name": "storeNumber",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -227,6 +310,25 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "updateNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -258,11 +360,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x9bb8e335686af864f43f2a366597b117517fc420c2c2b67e4834eabb5ef622a4",
+			"keccak256": "0xefbc13743d4a0db94836b4fd632a362580075c1c076f1000172cba6434dfe392",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://218651062720b1212baf2a24bbb7a3dacf6c2b22bef0e74bdc1ea557ae238ff2",
-				"dweb:/ipfs/QmQkvkck1EDDUVTyTRHRQJDAAdfv4scFyCrV5vtr6jqpjE"
+				"bzz-raw://6f663114132064fd16a74b6096e8d07f8b1e6c6feaa84cfcd38e9421f281bac0",
+				"dweb:/ipfs/QmPPG2Zjf8T9JYVfkmSUFVeBFYpFCbAirtbmdswhCCHJ35"
 			]
 		}
 	},
