@@ -1,29 +1,32 @@
-Project: SimpleStorage Smart Contract
 
+**SimpleStorage Smart Contract**
+This project extends a basic storage contract to include more advanced Solidity concepts, created as part of the Hackerboost Web3 course.
 
+**Features**
 
-Description:
-This project contains a simple Solidity smart contract that allows users to store and retrieve a favorite number. The contract was created as part of the Hackerboost Web3 course (MC Week 1).
+Favorite Number: Store and retrieve a single favorite number.
 
-Steps Taken:
-Set Up Development Environment:
+Favorite Numbers Array: Add multiple numbers to a list.
 
-Accessed the Remix IDE for writing and compiling the contract.
-Created a new workspace named "MyFirstSmartContract."
-Created a new Solidity file named SimpleStorage.sol.
-Wrote the Smart Contract:
+Person Struct: Add people with names and favorite numbers.
 
-Created a smart contract that includes a favoriteNumber state variable of type uint256.
-The contract allows for setting and retrieving the favorite number.
-Compiled the Contract:
+Contract State Enum: Set the contract as Active or Inactive.
 
-Used the Solidity compiler in Remix with the correct version (^0.8.25).
-Compiled the contract successfully with no errors.
-Deployed the Contract Locally:
+**Functions Overview**
 
-Selected Remix VM (Cancun) as the environment in the "Deploy & Run Transactions" tab.
-Deployed the contract to the local blockchain.
-Tested the Contract:
+storeNumber: Save a favorite number.
 
-Successfully interacted with the deployed contract by setting and retrieving values for favoriteNumber.
+getFavoriteNumber: View the stored favorite number.
+
+isGreaterThan: Check if the favorite number is greater than a given value.
+
+sumToFavoriteNumber: Get the sum of numbers from 1 to the favorite number.
+
+addPerson: Add a person’s name and favorite number.
+
+activateContract / deactivateContract: Set the contract to active or inactive.
+
+isActive: Check if the contract is currently active.
+
+Ive really improved on this weeks assignment since i pushed the code to github stress free unlike the previous week. 
 
